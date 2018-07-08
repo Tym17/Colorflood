@@ -28,6 +28,10 @@ You will also see any lint errors in the console.
 
 Minifies the files and optimizes them for production.
 
+`yarn run deploy`
+
+Deploys the app on the specified homepage in `package.json`.
+
 
 ## Supported Browsers
 
