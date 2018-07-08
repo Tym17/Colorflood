@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.game-row {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  border: 1px solid #999;
+  float: left;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 34px;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.white {
+  background: #FFFFFF;
+}
+
+.blue {
+  background: #3333FF;
+}
+
+.red {
+  background: #FF3333;
+}
+
+.green {
+  background: #33FF33;
+}
+
+.yellow {
+  background: #FFFF33;
+}
+
+.selected-blue {
+  border-bottom: 5px solid #3333FF;
+}
+
+.selected-red {
+  border-bottom: 5px solid #FF3333;
+}
+
+.selected-green {
+  border-bottom: 5px solid #33FF33;
+}
+
+.selected-yellow {
+  border-bottom: 5px solid #FFFF33;
+}
+
+.menu {
+  padding: 20px;
+  width: 150px;
+}
+
+.selected {
+  width: 100%;
+  margin-bottom: 25px;
+  text-align: center;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+}
+
+.pickers {
+  margin-bottom: 25px;
+}
+
+.status {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  margin-left: 50px;
+  color: #222;
+  font-family: 'Indie Flower', cursive;
+}
